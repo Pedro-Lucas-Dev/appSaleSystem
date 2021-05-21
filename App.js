@@ -1,21 +1,6 @@
 import React from "react";
-import { Text, View } from "react-native";
-import Layout from "./src/components/Layout";
+import Login from "./src/modules/pages/Login";
 
 export default function App() {
-  return (
-    <Layout>
-      <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
-      </View>
-    </Layout>
-  );
+  return <Login />;
 }
-
-const styles = {
-  container: {
-    flex: 1,
-    alignItems: "center",
-    justifyContent: "center",
-  },
-};
