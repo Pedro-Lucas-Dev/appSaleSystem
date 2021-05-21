@@ -1,11 +1,14 @@
 import React from "react";
 import { Text } from "react-native";
+import Card from "../../../components/Card";
 import Layout from "../../../components/Layout";
 
 const Login = () => {
   return (
     <Layout>
-      <Text>Welcome</Text>
+      <Card>
+        <Text>Welcome</Text>
+      </Card>
     </Layout>
   );
 };
