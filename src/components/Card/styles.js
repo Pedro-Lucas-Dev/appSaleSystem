@@ -1,5 +1,5 @@
 export const styles = {
-  CardContainer: {
+  Card: {
     borderRadius: 5,
     backgroundColor: "#CAE4E9",
     marginHorizontal: 4,
